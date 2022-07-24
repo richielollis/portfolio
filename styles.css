@@ -26,7 +26,7 @@ header {
 }
   
 header h1 {
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-weight: 200;
     text-transform: uppercase;
     margin: 0;
@@ -73,7 +73,6 @@ footer {
     background: white;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     width: 100%;
     padding: 40px 35px;
   
@@ -104,34 +103,60 @@ footer {
 
 }
 
-  /* ABOUT ME STYLES */
+  /* MAIN STYLES */
 
-.about-me {
+.section {
     margin: 50px auto;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: flex-start;
-
+    
 }
 
 .section-title {
-    border-right: 2px solid black;
-}
-
-.about-me h2 {
+    border-right: 3px solid;
+    padding-bottom: 20px;
+    padding-right: 45px;
+    margin-left: 60px;
     text-align: end;
-    padding: 20px 60px;
+    width: 15%;
+
+}
+
+.section-title h2 {
     font-size: 2vw;
-    font-weight: 200;
-}
-
-.about-me-info {
-   padding: 0 30px;
-   margin: 0 20px;
-}
-
-.about-me-info p {
-    font-size: 1.3vw;
+    font-weight: 600;
 
 }
+
+/* ABOUT ME STYLES */
+
+.about-me {
+    text-align: start;
+    padding: 0 40px;
+    font-size: 1.1vw;
+
+}
+
+
+/* WORK STYLES*/
+
+.work {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.work img {
+    padding: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+
+
 
