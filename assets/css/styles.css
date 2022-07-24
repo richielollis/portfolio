@@ -135,3 +135,38 @@ footer {
 
 }
 
+/* WORK STYLES */
+
+.work {
+    margin: 50px auto;
+    width: 100%;
+    display: flex;
+}
+
+.work h2 {
+    text-align: end;
+    padding: 20px 65px;
+    font-size: 2vw;
+    font-weight: 200;
+}
+
+.projects ul {
+    list-style: none;
+    padding: 0 30px;
+    margin: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.projects img {
+    padding: 20px;
+    width: 500px;
+}
+
+.projects img:first-child {
+    width: 1000px;
+}
+
+
+
