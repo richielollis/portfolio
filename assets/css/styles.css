@@ -4,21 +4,29 @@
     box-sizing: border-box;
     
 }
-  
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Martel', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+
 body {
     font-family: 'Martel', Arial, Helvetica, sans-serif;
+    background-color: white;
   
 }
   
 /* HEADER STYLES */
   
 header {
-    margin: 10px;
-    padding: 20px;
-    background: white;
+    margin: 15px;
+    padding: 25px;
+    background-color: white;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    align-items: flex-end;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -26,40 +34,32 @@ header {
 }
   
 header h1 {
-    font-size: 2vw;
+    padding: 30px 30px 0 30px;
+    font-size: 3rem;
     font-weight: 200;
     text-transform: uppercase;
-    margin: 0;
-
+    
 }
 
 header h1 a {
     color: black;
-    padding: 15px;
+    text-decoration: none;
 
 }
   
-header a {
-    text-decoration: none;
-}
-  
-header nav {
-    margin: 20px 0;
-  
-}
-  
 header nav ul {
+    padding: 30px 30px 15px 30px;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
   
 }
   
 header nav ul li a {
+    text-decoration: none;
     padding: 10px 15px;
-    font-size: 1.25vw;
+    font-size: 1.5rem;
     color: black;
     text-transform: uppercase;
     font-weight: 100;
@@ -72,7 +72,6 @@ footer {
     background: white;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     width: 100%;
     padding: 40px 35px;
   
@@ -96,92 +95,83 @@ footer {
     
 
 .subtitle p {
-    font-size: 1.3vw;
+    font-size: 1.1rem;
     margin-right: 105px;
     margin-bottom: 35px;
-
 
 }
 
   /* ABOUT ME STYLES */
 
-.about-me {
-    margin: 50px auto;
+.section {
+    margin: 50px 30px;
     width: 100%;
     display: flex;
-    justify-content: flex-start;
 
 }
 
 .section-title {
     border-right: 2px solid black;
-}
-
-.about-me h2 {
     text-align: end;
-    padding: 20px 3.9vw;
-    font-size: 2vw;
+    padding: 0px 40px;
+    font-size: 2rem;
     font-weight: 200;
 }
 
+.section-content {
+    
+}
+
+.about-me h2 {
+   padding-left: 68px;
+}
+
 .about-me-info {
-   padding: 0 30px;
+   padding: 0 85px 0 30px;
    margin: 0 20px;
+   font-size: 1rem;
+   
 }
 
 .about-me-info p {
-    font-size: 1.3vw;
 
 }
 
 /* WORK STYLES */
 
-.work {
-    margin: 50px auto;
-    width: 100%;
-    display: flex;
-}
-
 .work h2 {
-    text-align: end;
-    padding: 20px 4.2vw;
-    font-size: 2vw;
-    font-weight: 200;
+   padding-left: 78px;
+
 }
 
 .works {
     list-style: none;
-    padding: 0 50px;
-    margin: 0 20px;
+    padding: 0 50px; 
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 
 }
 
-.works img {
-    padding: 20px;
-    width: 35vw;
+.works-first a img {
+    width: 700px;
+    border-radius: 10px;
 }
 
-.works img:first-child {
-    width: 70vw;
+.works-rest {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+.works-rest a img {
+    padding: 20px;
+    width: 370px;
+    border-radius: 25px;
+}
+
 
 /* CONTACT ME STYLES */
-
-.contact-me {
-    margin: 50px auto;
-    display: flex;
-    width: 100%;
-}
-
-.contact-me h2 {
-    text-align: end;
-    padding: 20px 3vw;
-    font-size: 2vw;
-    font-weight: 200;
-
-}
 
 .contact-info {
     width: 100%;
@@ -199,7 +189,7 @@ footer {
 
 .contact-info ul li a {
     padding: 10px 15px;
-    font-size: 1.25vw;
+    font-size: 1rem;
     color: black;
     text-transform: uppercase;
     font-weight: 100;
