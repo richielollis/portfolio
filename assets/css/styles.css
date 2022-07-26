@@ -26,8 +26,7 @@ p {
 /* HEADER STYLES */
   
 header {
-    margin: 15px;
-    padding: 25px;
+    margin: 20px;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
@@ -90,6 +89,7 @@ footer {
     font-size: 1rem;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
     width: 100%;
     padding: 40px 35px;
@@ -98,8 +98,8 @@ footer {
 
 .avatar {
     vertical-align: middle;
-    width: 150px;
-    height: 150px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
 
 }
@@ -490,13 +490,14 @@ footer {
     header {
         justify-content: flex-end;
     }
+
     header h1 {
         padding-left: 15px;
         font-size: 2rem;
     }
 
     header nav ul {
-        padding-left: 0;
+        padding-right: 15px;
     }
 
     header nav ul li a {
@@ -551,12 +552,12 @@ footer {
     }
 
     header h1 {
-        padding-left: 15px;
+        padding: 15px 0 0 0;
         font-size: 2rem;
     }
 
     header nav ul {
-        padding-left: 0;
+        padding: 15px 0 15px 0;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -595,13 +596,6 @@ footer {
     
     }
     
-    .section-title {
-        border-right: 2px solid black;
-        text-align: end;
-        padding: 0px 40px;
-        font-size: 2rem;
-        font-weight: 200;
-    }
     .section {
        flex-direction: column;
     }
@@ -618,7 +612,8 @@ footer {
 
     .about-me-info {
         font-size: 0.8rem;
-        padding: 2% 6.5%;
+        padding: 20px 0 0 0;
+        margin: 0;
     }
 
     .about-me h2 {
@@ -632,11 +627,16 @@ footer {
     .works {
         display: flex;
         flex-wrap: wrap;
+        padding: 20px 0 0 0;
         
     }
 
     .works-first {
         padding-top: 20px;
+    }
+
+    .contact-info ul {
+        padding: 20px 0 0 0;
     }
 
     .contact-info ul li a {
@@ -646,6 +646,17 @@ footer {
 }
 
 @media screen and (max-width: 470px) {
+
+    /* HEADER */
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header nav ul li a {
+        font-size: .8rem;
+
+    }
 
     /* WORKS */
     
