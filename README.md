@@ -10,9 +10,11 @@ This is a website that showcases my works as a web developer. There are simple n
 
 GitHub
 
-
+https://github.com/richielollis/richie-lollis-portfolio
 
 Deployed Website
+
+ https://richielollis.github.io/richie-lollis-portfolio/
 
 
 
