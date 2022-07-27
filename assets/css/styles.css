@@ -197,7 +197,7 @@ footer {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    background-image: url("./assets/images/run-buddy.png");
+    background-image: url("../images/run-buddy.png");
     background-size: cover;
     border-radius: 7px;
     width: 1000px;
@@ -250,7 +250,7 @@ footer {
 }
 
 #works-rest-first-img {
-    background-image: url("./assets/images/horiseon.png");
+    background-image: url("../images/horiseon.png");
 
 }
 
