@@ -107,7 +107,7 @@ footer {
 /* HERO STYLES */
 
 .hero {
-    background-color: rgb(245, 42, 42);
+    background-color: rgb(209, 64, 64);
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
@@ -255,7 +255,7 @@ footer {
 }
 
 #works-rest-second-img {
-    background-color: lightgray;
+    background-image: url("../images/Launch\ Logo\ Portfolio.jpeg");
 
 }
 
