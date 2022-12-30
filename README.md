@@ -14,4 +14,4 @@ https://github.com/richielollis/richie-lollis-portfolio
 
 Deployed Website
 
-https://richielollis.github.io/richie-lollis-portfolio/
+https://richie-lollis-portfolio.vercel.app/
