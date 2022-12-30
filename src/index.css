@@ -58,7 +58,7 @@ header {
 }
 
 h2 {
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   display: inline-block;
   margin-bottom: 8px;
@@ -256,6 +256,10 @@ margin-right: 16px;
 #contact-title{
   font-size: 1.5rem;
   font-weight: 200;
+}
+
+#contact-form *{
+  padding: 10px;
 }
 
 
