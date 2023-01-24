@@ -5,6 +5,7 @@ function Home() {
     <div>
       <p className="homeText">
         Welcome.
+        <br />
         <span id="welcome">Take a look around.</span>
       </p>
     </div>

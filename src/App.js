@@ -19,7 +19,7 @@ function App() {
   const [currentTab, setCurrentTab] = useState(navTabs[0]);
 
   return (
-    <div>
+    <div id="mainDiv">
       <Header
         navTabs={navTabs}
         currentTab={currentTab}
