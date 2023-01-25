@@ -50,7 +50,6 @@ header {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  border-bottom: solid black;
 }
 
 main {
@@ -81,7 +80,6 @@ font-size: 1rem;
   padding-bottom: 10px;
   font-size: 1rem;
   color: #130202c7;
-  border-bottom: solid black;
   width: 100%;
   text-align: center;
 }
@@ -125,7 +123,6 @@ footer{
   width: 100%;
   overflow: hidden;
   background-color: var(--primary);
-  border-top: solid black;
 }
 
 .footerImg{
