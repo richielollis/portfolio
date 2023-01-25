@@ -9,7 +9,7 @@ function Work() {
       picture: require(`../../assets/images/Arij-logo.png`),
     },
     {
-      name: "PokeNect",
+      name: "POKENECT",
       description: "A social media website for fans of Pokemon to connect",
       live: "https://dry-wildwood-44635.herokuapp.com/",
       picture: require(`../../assets/images/pokenect.png`),
