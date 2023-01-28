@@ -23,6 +23,7 @@ code {
   color: var(--text1);
   font-family: 'Arial';
   font-size: 36px;
+  background-color: var(--primary);
 }
 
 html{
@@ -138,14 +139,14 @@ p{
   /* margin: 8px; */
 }
 
-input:-webkit-autofill,
+/* input:-webkit-autofill,
 input:-webkit-autofill:hover, 
 input:-webkit-autofill:focus, 
 input:-webkit-autofill:active{
     -webkit-box-shadow: 0 0 0 30px var(--primary) inset !important;
     box-shadow: 0 0 0 30px var(--primary) inset !important;
     -webkit-text-fill-color: var(--text1);
-}
+} */
 
 .project {
   width: 80%;
@@ -250,7 +251,6 @@ h2 {
   width: 80%;
   /* height: 50%; */
   text-align: center;
-  
 }
 
 /* #contact-title{
@@ -260,6 +260,7 @@ h2 {
 
 #contact-form *{
   display: flex;
+  flex-direction: column;
   align-items: center; 
   justify-content: center;
   padding: 5px;
@@ -276,10 +277,8 @@ button {
   box-shadow: none;
   border: 1px solid var(--text1);
   border-radius: 8px;
-  width: 95%;
-  margin: 1rem, 0, 0, .3rem;
-
-  
+  width: 100%;
+  margin-top: 10px;
 }
 
 button:hover {
