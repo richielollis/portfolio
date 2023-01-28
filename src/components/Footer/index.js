@@ -1,6 +1,6 @@
 import React from "react";
 import GitHub from "../../assets/images/github-mark.png";
-import LinkedIn from "../../assets/images/LI-In-Bug.png";
+import LinkedIn from "../../assets/images/iconmonstr-linkedin-3.svg";
 
 function Footer() {
   return (

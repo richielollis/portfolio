@@ -12,20 +12,20 @@ function Work() {
       name: "POKENECT",
       description: "A social media website for fans of Pokemon to connect",
       live: "https://dry-wildwood-44635.herokuapp.com/",
-      picture: require(`../../assets/images/pokenect.png`),
+      picture: require(`../../assets/images/PokeNect2.png`),
     },
     {
       name: "LAUNCH",
       description:
         "Fun app that shows which SpaceX rocket you'll take to Mars and how many asteroids you'll encounter",
       live: "https://richielollis.github.io/launch/",
-      picture: require(`../../assets/images/Launch Logo Portfolio.jpeg`),
+      picture: require(`../../assets/images/Launch.jpg`),
     },
     {
       name: "JATE",
       description: "PWA text editor",
       live: "https://limitless-earth-25385.herokuapp.com/",
-      picture: require(`../../assets/images/JATE screenshot.png`),
+      picture: require(`../../assets/images/JATE.png`),
     },
   ]);
   return (

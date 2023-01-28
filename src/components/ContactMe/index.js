@@ -41,13 +41,13 @@ function ContactMe() {
   }
   return (
     <section id="contact">
-      <h1 id="contact-title">Contact Me</h1>
+      {/* <h1 id="contact-title">Contact Me</h1> */}
       <form id="contact-form">
         <div>
           <label htmlFor="name"></label>
           <input
             type="text"
-            name="name"
+            name="Name"
             defaultValue={name}
             onBlur={handleChange}
             placeholder="Enter Your Name"
@@ -57,7 +57,7 @@ function ContactMe() {
           <label htmlFor="email"></label>
           <input
             type="email"
-            name="email"
+            name="Email"
             defaultValue={email}
             onBlur={handleChange}
             placeholder="Enter Your Email"
@@ -66,7 +66,7 @@ function ContactMe() {
         <div>
           <label htmlFor="message"></label>
           <textarea
-            name="message"
+            name="Message"
             rows="5"
             defaultValue={message}
             onBlur={handleChange}

@@ -56,6 +56,7 @@ main {
   margin-top: 170px;  
   margin-bottom: 45px;
   width: 100vw;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -134,16 +135,7 @@ footer{
 }
 
 p{
-  margin: 8px;
-}
-
-textarea {
-  height: 300px;
-  margin-top: 16px;
-}
-
-input {
-height: auto;
+  /* margin: 8px; */
 }
 
 input:-webkit-autofill,
@@ -153,32 +145,6 @@ input:-webkit-autofill:active{
     -webkit-box-shadow: 0 0 0 30px var(--primary) inset !important;
     box-shadow: 0 0 0 30px var(--primary) inset !important;
     -webkit-text-fill-color: var(--text1);
-}
-
-textarea, input {
-  border: none;
-  overflow: auto;
-  outline: none;
-  resize: none; 
-  background-color: var(--primary);
-  border: 1px solid var(--text1);
-  border-radius: 8px;
-  width: 80%;
-  font-size: 18px;
-}
-
-button {
-  all: unset;
-  color: var(--text1);
-  transition: color .3s;
-  text-align: center;
- 
-}
-
-button:hover {
-  color: var(--secondary);
-  cursor: pointer;
-  background-position: bottom;
 }
 
 .project {
@@ -263,8 +229,10 @@ h2 {
 }
 
 .error-text {
-  font-size: 24px;
-  margin-bottom: 20px;
+  font-size: .4rem;
+  padding: 0;
+  margin: 0;
+  /* margin-bottom: 20px; */
 }
 
 #resumeNav{
@@ -277,23 +245,72 @@ h2 {
 }
 
 #contact {
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height: 200%;
+  /* margin-left: auto;
+  margin-right: auto; */
+  width: 80%;
+  /* height: 50%; */
   text-align: center;
+  
 }
 
-#contact-title{
-  font-size: 1.5rem;
+/* #contact-title{
+  font-size: .5rem;
   font-weight: 200;
-}
+} */
 
 #contact-form *{
-  padding: 10px;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  padding: 5px;
 }
 
+button {
+  /* all: unset; */
+  color: var(--text1);
+  background-color: var(--primary);
+  transition: color .3s;
+  /* text-align: center; */
+  font-size: .5rem;
+  border-radius: 3px;
+  box-shadow: none;
+  border: 1px solid var(--text1);
+  border-radius: 8px;
+  width: 95%;
+  margin: 1rem, 0, 0, .3rem;
 
+  
+}
+
+button:hover {
+  color: var(--secondary);
+  cursor: pointer;
+  background-position: bottom;
+}
+
+textarea {
+  height: 6rem;
+  /* margin-top: 15px; */
+  /* margin-top: 16px; */
+}
+
+input {
+height: auto;
+font-size: .4rem;
+
+}
+
+textarea, input {
+  border: none;
+  overflow: auto;
+  outline: none;
+  resize: none; 
+  background-color: var(--primary);
+  border: 1px solid var(--text1);
+  border-radius: 8px;
+  width: 100%;
+  font-size: .4rem;
+}
 
 
 
