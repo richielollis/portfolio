@@ -13,7 +13,7 @@ function Work() {
       name: "POKENECT",
       description: "A social media website for fans of Pokemon to connect",
       github: "https://github.com/PDismore/PokeNect",
-      live: "https://dry-wildwood-44635.herokuapp.com/",
+      live: "https://glacial-savannah-42207.herokuapp.com/",
       picture: require(`../../assets/images/PokeNect2.png`),
     },
     {
