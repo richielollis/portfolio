@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "../../assets/RICHIE LOLLIS_RESUME .pdf";
+import Resume from "../../assets/RICHIE LOLLIS_RESUME.pdf";
 
 function NavBar(props) {
   const { navTabs = [], currentTab, setCurrentTab } = props;
