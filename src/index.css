@@ -97,7 +97,7 @@ li {
   font-size: 0.53rem;
   list-style: none;
   color: var(--text1);
-  transition: .3s;
+  transition: .05s;
 }
 
 a {
@@ -216,7 +216,7 @@ h2 {
 
 #resumeNav{
   color: var(--text1);
-  transition: .3s;
+  transition: .05s;
 }
 
 #resumeNav:hover{
@@ -241,7 +241,7 @@ h2 {
 button {
   color: var(--text1);
   background-color: var(--primary);
-  transition: color .3s;
+  transition: color .2s;
   font-size: .5rem;
   border-radius: 3px;
   box-shadow: none;
